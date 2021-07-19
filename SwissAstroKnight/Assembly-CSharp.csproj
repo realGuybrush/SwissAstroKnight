@@ -59,6 +59,8 @@
     <Compile Include="Assets\Scripts\Knight\KnightControls.cs" />
     <Compile Include="Assets\Scripts\Enemies\BasicEnemyMovement.cs" />
     <Compile Include="Assets\Scripts\Knight\KnightControlsFollowCursor.cs" />
+    <Compile Include="Assets\Scripts\Knight\ControlKeys.cs" />
+    <Compile Include="Assets\Scripts\Knight\KnightControlsDash.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

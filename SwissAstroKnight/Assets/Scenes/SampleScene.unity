@@ -481,6 +481,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1096325089}
   - component: {fileID: 1096325090}
+  - component: {fileID: 1096325091}
   m_Layer: 0
   m_Name: KnightSpaceShip
   m_TagString: Untagged
@@ -516,7 +517,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660b5d6d631e38541b512f1627303e3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  velocity: 3
+  guns:
+  - {fileID: 2023151707}
+  - {fileID: 1230355327}
+  - {fileID: 182376312}
+  - {fileID: 241912323}
+  - {fileID: 1445616385}
+  - {fileID: 2128477905}
+  - {fileID: 2114487468}
+  - {fileID: 687765163}
+  systems:
+  - {fileID: 1189321673}
+  - {fileID: 1115448441}
+  - {fileID: 2114975683}
   rotatingPart: {fileID: 496649624}
+--- !u!50 &1096325091
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096325088}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1115448441
 GameObject:
   m_ObjectHideFlags: 0
