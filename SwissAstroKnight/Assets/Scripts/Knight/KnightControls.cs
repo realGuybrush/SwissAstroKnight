@@ -8,13 +8,13 @@ public partial class KnightControls : MonoBehaviour
     private ControlKeys controls = new ControlKeys();
     private Rigidbody2D ship;
     public float velocity;
-    public List<GameObject> guns = new List<GameObject>();
     public List<GameObject> systems = new List<GameObject>();
     // Start is called before the first frame update
     void Start()
     {
         mainCam = Camera.main;
-        ship = transform.GetComponent<Rigidbody2D>();
+        ship = transform.GetComponent<Rigidbody2D>(); 
+        UpdateGuns();
     }
 
     // Update is called once per frame
@@ -61,6 +61,10 @@ public partial class KnightControls : MonoBehaviour
         if (Input.GetKeyDown(controls.dash)&&!dashing)
         {
             StartCoroutine("Dash");
+        }
+        if (Input.GetKeyDown(controls.atk1))
+        {
+            Shoot();
         }
     }
 }
