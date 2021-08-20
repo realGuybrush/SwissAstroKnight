@@ -27,8 +27,14 @@ public partial class KnightControls : MonoBehaviour
         {
             if (guns[i] != null)
             {
-                GameObject.Instantiate(guns[i].projectile[guns[i].tier], weapons[i].transform.position, new Quaternion()).transform.eulerAngles = weapons[i].transform.eulerAngles + new Vector3(0f, 0f, guns[i].rotation*45);
+                guns[i].Shoot(weapons[i].transform.position, weapons[i].transform.eulerAngles + new Vector3(0f, 0f, guns[i].rotation * 45));
             }
         }
+    }
+
+    public void EnableGunBooster(int level)
+    {
+        //fix
+        level = level;
     }
 }

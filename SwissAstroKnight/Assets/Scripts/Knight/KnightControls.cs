@@ -62,7 +62,7 @@ public partial class KnightControls : MonoBehaviour
         {
             StartCoroutine("Dash");
         }
-        if (Input.GetKeyDown(controls.atk1))
+        if (Input.GetKey(controls.atk1))
         {
             Shoot();
         }

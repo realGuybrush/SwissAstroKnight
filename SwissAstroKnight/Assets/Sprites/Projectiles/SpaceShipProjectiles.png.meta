@@ -1,0 +1,1056 @@
+fileFormatVersion: 2
+guid: 9b8bf70e97c1f8a4684270236f476a9d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5117984736956999942
+    second: SpaceShipPlasma1_2
+  - first:
+      213: 7180509838708134221
+    second: SpaceShipPlasma1_1
+  - first:
+      213: 5682113263702646074
+    second: SpaceShipPlasma2_1
+  - first:
+      213: -525489720655910746
+    second: SpaceShipPlasma2_2
+  - first:
+      213: 5730518134631808999
+    second: SpaceShipPlasma3_1
+  - first:
+      213: -799122532907005612
+    second: SpaceShipPlasma3_2
+  - first:
+      213: 4819587976509257720
+    second: SpaceShipPlasma3_3
+  - first:
+      213: 3921146011133108190
+    second: SpaceShipPlasma3_4
+  - first:
+      213: -1586623299496312448
+    second: SpaceShipPlasma3_5
+  - first:
+      213: 8386138951257014100
+    second: SpaceShipPlasma3_6
+  - first:
+      213: -8416521682542393308
+    second: SpaceShipPlasma3_7
+  - first:
+      213: 5828355897693009478
+    second: SpaceShipPlasma3_8
+  - first:
+      213: 5955071551999370328
+    second: SpaceShipPlasma3_9
+  - first:
+      213: -6812512886743507732
+    second: SpaceShipPlasma3_10
+  - first:
+      213: 1586932102255455728
+    second: SpaceShipPlasma3_11
+  - first:
+      213: -3829443333943751852
+    second: SpaceShipPlasma3_12
+  - first:
+      213: -2466739165864602816
+    second: SpaceShipPlasma3_13
+  - first:
+      213: -1568329518509399312
+    second: SpaceShipPlasma3_14
+  - first:
+      213: -2085562022848687341
+    second: SpaceShipPlasma3_15
+  - first:
+      213: 3330366585725583280
+    second: SpaceShipPlasma3_16
+  - first:
+      213: 5490167617950521492
+    second: SpaceShipPlasma3_17
+  - first:
+      213: 3639762520684753657
+    second: SpaceShipPlasma3_18
+  - first:
+      213: -8875740218098030502
+    second: SpaceShipLaser1
+  - first:
+      213: 4750164663331032860
+    second: SpaceShipLaser2
+  - first:
+      213: -7117351609818091666
+    second: SpaceShipLaser3
+  - first:
+      213: 7545301520581960014
+    second: SpaceShipRocket1
+  - first:
+      213: -6097388925283854794
+    second: SpaceShipRocket2-3
+  - first:
+      213: 7262047262634012851
+    second: SpaceShipMortar
+  - first:
+      213: 3772757839808092842
+    second: SpaceShipABPill
+  - first:
+      213: 2484551771052008190
+    second: SpaceShipAVPill
+  - first:
+      213: -3658451542725772608
+    second: SpaceShipABVPill
+  - first:
+      213: 2645009952888723324
+    second: SpaceShipRocket1Fire
+  - first:
+      213: -2356202548890995461
+    second: SpaceShipRocket2-3Fire
+  - first:
+      213: -4645129202392809493
+    second: SpaceShipVirusBeam1
+  - first:
+      213: -3297703372567959688
+    second: SpaceShipVirusBeam2
+  - first:
+      213: 6369714520201478417
+    second: SpaceShipVirusBeam3
+  - first:
+      213: -7671315367032205035
+    second: SpaceShipFlamethrower
+  - first:
+      213: -8144892809561153366
+    second: SpaceShipABSpray
+  - first:
+      213: 6392583794889549714
+    second: SpaceShipAVSpray
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpaceShipPlasma1_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af69ecb7ff349f8b0800000000000000
+      internalID: -5117984736956999942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipPlasma1_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 108
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41556287ab46a360800000000000000
+      internalID: 7180509838708134221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipPlasma2_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 104
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d188088ebeade40800000000000000
+      internalID: 5682113263702646074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipPlasma2_2
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 110
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a86f2b12e515b8f0800000000000000
+      internalID: -525489720655910746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipPlasma3_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 92
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7efb9a1c1e3e68f40800000000000000
+      internalID: 5730518134631808999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipPlasma3_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 91
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459411e4a42f8e4f0800000000000000
+      internalID: -799122532907005612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipPlasma3_3
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 104
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7f397babd92e240800000000000000
+      internalID: 4819587976509257720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipPlasma3_4
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 104
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf5702a585ba6630800000000000000
+      internalID: 3921146011133108190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipPlasma3_5
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 104
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0810a21f38e2bf9e0800000000000000
+      internalID: -1586623299496312448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipPlasma3_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 104
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fbdbac1fc816470800000000000000
+      internalID: 8386138951257014100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipPlasma3_7
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 102
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42800b35f12823b80800000000000000
+      internalID: -8416521682542393308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipPlasma3_8
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 102
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6467b8a1fca72e050800000000000000
+      internalID: 5828355897693009478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipPlasma3_9
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 102
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854e4f4760aa4a250800000000000000
+      internalID: 5955071551999370328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipPlasma3_10
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 100
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cecd1edaf971571a0800000000000000
+      internalID: -6812512886743507732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipPlasma3_11
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 96
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fda99dc65ae50610800000000000000
+      internalID: 1586932102255455728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipPlasma3_12
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 94
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b8bc8b3951bdac0800000000000000
+      internalID: -3829443333943751852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipPlasma3_13
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 90
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043d8194cc164cdd0800000000000000
+      internalID: -2466739165864602816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipPlasma3_14
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 58
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2ec7ebc9c2c3ae0800000000000000
+      internalID: -1568329518509399312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipPlasma3_15
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 53
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3131f07d3689e03e0800000000000000
+      internalID: -2085562022848687341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipPlasma3_16
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 53
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bff002c3c6d73e20800000000000000
+      internalID: 3330366585725583280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipPlasma3_17
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 53
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4981b414c5ef03c40800000000000000
+      internalID: 5490167617950521492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipPlasma3_18
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 93
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2f1307ab8038230800000000000000
+      internalID: 3639762520684753657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipLaser1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 100
+        width: 1
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a586e9d1c4903d480800000000000000
+      internalID: -8875740218098030502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipLaser2
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 100
+        width: 1
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f85760899fbe140800000000000000
+      internalID: 4750164663331032860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipLaser3
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 6
+        width: 5
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6fec339b661a3d90800000000000000
+      internalID: -7117351609818091666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipRocket1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 75
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41a08991cb46b860800000000000000
+      internalID: 7545301520581960014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipRocket2-3
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 74
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6361e0be319b16ba0800000000000000
+      internalID: -6097388925283854794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipMortar
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 74
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0f5676289f7c460800000000000000
+      internalID: 7262047262634012851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipABPill
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 77
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaad45134478b5430800000000000000
+      internalID: 3772757839808092842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipAVPill
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 77
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef26f9b0ca6ea7220800000000000000
+      internalID: 2484551771052008190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipABVPill
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 77
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cab9d784b19a3dc0800000000000000
+      internalID: -3658451542725772608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipRocket1Fire
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 68
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c771e4dc986f4b420800000000000000
+      internalID: 2645009952888723324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipRocket2-3Fire
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 66
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf47b76f3461d4fd0800000000000000
+      internalID: -2356202548890995461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipVirusBeam1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 11
+        width: 3
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef3593f99f298fb0800000000000000
+      internalID: -4645129202392809493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipVirusBeam2
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 11
+        width: 5
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877aa7f21443c32d0800000000000000
+      internalID: -3297703372567959688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipVirusBeam3
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 11
+        width: 5
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111c141ab95c56850800000000000000
+      internalID: 6369714520201478417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipFlamethrower
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 50
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511dc0c61530a8590800000000000000
+      internalID: -7671315367032205035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipABSpray
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa06978a42787fe80800000000000000
+      internalID: -8144892809561153366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipAVSpray
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 0
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2976f43971507b850800000000000000
+      internalID: 6392583794889549714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

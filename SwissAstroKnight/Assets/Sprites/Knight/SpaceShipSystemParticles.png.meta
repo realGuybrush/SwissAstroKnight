@@ -1,0 +1,888 @@
+fileFormatVersion: 2
+guid: e7850f71a6ab0504c842235001af9e5c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4085440247665318665
+    second: SpaceShipSystemShieldUp1
+  - first:
+      213: 7209018070812570113
+    second: SpaceShipSystemShieldUp2
+  - first:
+      213: -7876041235251587550
+    second: SpaceShipSystemShieldUp3
+  - first:
+      213: 3942064768733652481
+    second: SpaceShipSystemShieldUp4
+  - first:
+      213: 157491086144427716
+    second: SpaceShipSystemShieldUp5
+  - first:
+      213: 2332181253693541754
+    second: SpaceShipSystemShieldUp6
+  - first:
+      213: -3383889510216243764
+    second: SpaceShipSystemShieldUp7
+  - first:
+      213: 1517132764380076163
+    second: SpaceShipSystemShield1
+  - first:
+      213: -7064246820820252530
+    second: SpaceShipSystemShield2
+  - first:
+      213: -5158911059642158316
+    second: SpaceShipSystemShield3
+  - first:
+      213: -515596446822519711
+    second: SpaceShipSystemShieldUp10
+  - first:
+      213: 1771736401364530271
+    second: SpaceShipSystemShieldUp9
+  - first:
+      213: 2708946090890281791
+    second: SpaceShipSystemShieldUp8
+  - first:
+      213: 4707033574227772083
+    second: SpaceShipSystemSpark1
+  - first:
+      213: 1291161738500099806
+    second: SpaceShipSystemSpark2
+  - first:
+      213: 8694896871919423305
+    second: SpaceShipSystemSpark3
+  - first:
+      213: 6008059855640728329
+    second: SpaceShipSystemSpark4
+  - first:
+      213: -7686587882301050137
+    second: SpaceShipSystemSpark5
+  - first:
+      213: -5094310103039608002
+    second: SpaceShipSystemSpark6
+  - first:
+      213: 7955981138280070741
+    second: SpaceShipSystemSpark7
+  - first:
+      213: 4642586120414995017
+    second: SpaceShipSystemSpark8
+  - first:
+      213: 6115222959519016141
+    second: SpaceShipSystemSpark9
+  - first:
+      213: 7733569923087807930
+    second: SpaceShipSystemLightning1
+  - first:
+      213: -1799258789783590504
+    second: SpaceShipSystemLightning2
+  - first:
+      213: 6883534804907019281
+    second: SpaceShipSystemLightning3
+  - first:
+      213: 6414185971199608562
+    second: SpaceShipSystemLightning4
+  - first:
+      213: 6362276904270815270
+    second: SpaceShipSystemLightning5
+  - first:
+      213: -2515719479324198300
+    second: SpaceShipSystemLightning6
+  - first:
+      213: 8647765594218337927
+    second: SpaceShipSystemLightning7
+  - first:
+      213: 6485856054714727702
+    second: SpaceShipSystemLightning8
+  - first:
+      213: 8923233644362596460
+    second: SpaceShipSystemLightning9
+  - first:
+      213: -5746087333292750703
+    second: SpaceShipSystemLightning10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpaceShipSystemShieldUp1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 430
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f423d68db99d47c0800000000000000
+      internalID: -4085440247665318665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemShieldUp2
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 430
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102b72a8db39b0460800000000000000
+      internalID: 7209018070812570113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemShieldUp3
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 430
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2261080c93ea2b290800000000000000
+      internalID: -7876041235251587550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemShieldUp4
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 430
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106a3fd650705b630800000000000000
+      internalID: 3942064768733652481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemShieldUp5
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 430
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6dde4fe458f2200800000000000000
+      internalID: 157491086144427716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemShieldUp6
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 430
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d8a3a6e729d5020800000000000000
+      internalID: 2332181253693541754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemShieldUp7
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 430
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5e3684b620a01d0800000000000000
+      internalID: -3383889510216243764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemShield1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 309
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3881bf90630fd0510800000000000000
+      internalID: 1517132764380076163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemShield2
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 309
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e888357c1f0c6fd90800000000000000
+      internalID: -7064246820820252530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemShield3
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 309
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413f13e69bdd768b0800000000000000
+      internalID: -5158911059642158316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemShieldUp10
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 309
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ca0bb63cb38d8f0800000000000000
+      internalID: -515596446822519711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemShieldUp9
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 309
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5436f6bed8769810800000000000000
+      internalID: 1771736401364530271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemShieldUp8
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 309
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33c237fd1c189520800000000000000
+      internalID: 2708946090890281791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemSpark1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 208
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b20fa9c81eb25140800000000000000
+      internalID: 4707033574227772083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemSpark2
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 208
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edecfd2a2c02be110800000000000000
+      internalID: 1291161738500099806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemSpark3
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 208
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f896133aa7aa870800000000000000
+      internalID: 8694896871919423305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemSpark4
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 208
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90310cc4b9ae06350800000000000000
+      internalID: 6008059855640728329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemSpark5
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 208
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2bf9cdb01c35590800000000000000
+      internalID: -7686587882301050137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemSpark6
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 208
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bf3acb3ff5d49b0800000000000000
+      internalID: -5094310103039608002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemSpark7
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 208
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e34e251b2596e60800000000000000
+      internalID: 7955981138280070741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemSpark8
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 107
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942ae72aa77cd6040800000000000000
+      internalID: 4642586120414995017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemSpark9
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 107
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4a170c1e2add450800000000000000
+      internalID: 6115222959519016141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemLightning1
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 79
+        width: 7
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab53b4feed8235b60800000000000000
+      internalID: 7733569923087807930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemLightning2
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 79
+        width: 11
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89923ffd9afb707e0800000000000000
+      internalID: -1799258789783590504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemLightning3
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 79
+        width: 13
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c458d3f6a378f50800000000000000
+      internalID: 6883534804907019281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemLightning4
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 79
+        width: 13
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f685a03824c30950800000000000000
+      internalID: 6414185971199608562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemLightning5
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 79
+        width: 11
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620ebb9b2295b4850800000000000000
+      internalID: 6362276904270815270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemLightning6
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 79
+        width: 9
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ab950667e561dd0800000000000000
+      internalID: -2515719479324198300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemLightning7
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 79
+        width: 9
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7869a387df8030870800000000000000
+      internalID: 8647765594218337927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemLightning8
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 79
+        width: 9
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d769dd7b3620a50800000000000000
+      internalID: 6485856054714727702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemLightning9
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 79
+        width: 7
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c600c04e8b1b5db70800000000000000
+      internalID: 8923233644362596460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShipSystemLightning10
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 79
+        width: 9
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198c6b2b30cc140b0800000000000000
+      internalID: -5746087333292750703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

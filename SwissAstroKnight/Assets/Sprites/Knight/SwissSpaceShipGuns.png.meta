@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: 48021fbc8f149ab49bf77a959c9f7296
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1108018171223181206
+    second: SwissSpaceShipPlasma1
+  - first:
+      213: -2768432824883345911
+    second: SwissSpaceShipPlasma2
+  - first:
+      213: -207425149116522765
+    second: SwissSpaceShipPlasma3
+  - first:
+      213: -982256535958205543
+    second: SwissSpaceShipLaser1
+  - first:
+      213: -1867522205597864660
+    second: SwissSpaceShipLaser2
+  - first:
+      213: 9193601490807718774
+    second: SwissSpaceShipLaser3
+  - first:
+      213: 349270550197276451
+    second: SwissSpaceShipRocket1
+  - first:
+      213: 7468612589915304874
+    second: SwissSpaceShipRocket2
+  - first:
+      213: -4906731686758665692
+    second: SwissSpaceShipRocket3
+  - first:
+      213: 8420140895342643023
+    second: SwissSpaceShipPlasmaThrower
+  - first:
+      213: 7334022023937946762
+    second: SwissSpaceShipABGun1
+  - first:
+      213: -8432905074790631696
+    second: SwissSpaceShipABGun2
+  - first:
+      213: 7034153491632968648
+    second: SwissSpaceShipABGun3
+  - first:
+      213: 1762082977333832867
+    second: SwissSpaceShipVBeam1
+  - first:
+      213: 3166232330066661182
+    second: SwissSpaceShipVBeam2
+  - first:
+      213: -1076381391225028429
+    second: SwissSpaceShipVBeam3
+  - first:
+      213: 6078561432601818281
+    second: SwissSpaceShipAVGun1
+  - first:
+      213: -8163697104584107091
+    second: SwissSpaceShipAVGun2
+  - first:
+      213: 4756933242671624816
+    second: SwissSpaceShipAVGun3
+  - first:
+      213: 2983011834447490099
+    second: SwissSpaceShipABVGun
+  - first:
+      213: 7646861942061168990
+    second: SwissSpaceShipMortar
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.3}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SwissSpaceShipPlasma1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 23
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68709308578f90f0800000000000000
+      internalID: -1108018171223181206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwissSpaceShipPlasma2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 23
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9060c48730d8499d0800000000000000
+      internalID: -2768432824883345911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwissSpaceShipPlasma3
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 23
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe5d650de31f1df0800000000000000
+      internalID: -207425149116522765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwissSpaceShipLaser1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 23
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bc7ef72e25e52f0800000000000000
+      internalID: -982256535958205543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwissSpaceShipLaser2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 23
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d6f25d27a3516e0800000000000000
+      internalID: -1867522205597864660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwissSpaceShipLaser3
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 23
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673881a98db369f70800000000000000
+      internalID: 9193601490807718774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwissSpaceShipRocket1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 23
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f830307bbd8d400800000000000000
+      internalID: 349270550197276451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwissSpaceShipRocket2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 23
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa379e28497d5a760800000000000000
+      internalID: 7468612589915304874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwissSpaceShipRocket3
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 23
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422b8922789c7ebb0800000000000000
+      internalID: -4906731686758665692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwissSpaceShipPlasmaThrower
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 23
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4743a158895ad470800000000000000
+      internalID: 8420140895342643023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwissSpaceShipABGun1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8476b76c2ea7c560800000000000000
+      internalID: 7334022023937946762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwissSpaceShipABGun2
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6f380938d48fa80800000000000000
+      internalID: -8432905074790631696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwissSpaceShipABGun3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 0
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c35b5405555e9160800000000000000
+      internalID: 7034153491632968648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwissSpaceShipVBeam1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aceeb8c12d247810800000000000000
+      internalID: 1762082977333832867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwissSpaceShipVBeam2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f0bfd5787b0fb20800000000000000
+      internalID: 3166232330066661182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwissSpaceShipVBeam3
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 0
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0013dd3dcef01f0800000000000000
+      internalID: -1076381391225028429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwissSpaceShipAVGun1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4fe97da636b5450800000000000000
+      internalID: 6078561432601818281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwissSpaceShipAVGun2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab116b8cb8b4be80800000000000000
+      internalID: -8163697104584107091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwissSpaceShipAVGun3
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07270b5b495040240800000000000000
+      internalID: 4756933242671624816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwissSpaceShipABVGun
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c67017579c56920800000000000000
+      internalID: 2983011834447490099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwissSpaceShipMortar
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 0
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e597207eb6c1f1a60800000000000000
+      internalID: 7646861942061168990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -56,14 +56,21 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Misc\Item.cs" />
+    <Compile Include="Assets\Scripts\Knight\KnightControlsDash.cs" />
+    <Compile Include="Assets\Scripts\Misc\ParticleParams.cs" />
     <Compile Include="Assets\Scripts\Knight\KnightControls.cs" />
+    <Compile Include="Assets\Scripts\Misc\Gun.cs" />
     <Compile Include="Assets\Scripts\Enemies\BasicEnemyMovement.cs" />
+    <Compile Include="Assets\Scripts\Misc\Projectile.cs" />
     <Compile Include="Assets\Scripts\Knight\KnightControlsFollowCursor.cs" />
     <Compile Include="Assets\Scripts\Knight\ControlKeys.cs" />
-    <Compile Include="Assets\Scripts\Knight\KnightControlsDash.cs" />
-    <Compile Include="Assets\Scripts\Knight\Gun.cs" />
-    <Compile Include="Assets\Scripts\Projectile.cs" />
+    <Compile Include="Assets\Scripts\Misc\ProjectileWithParticles.cs" />
     <Compile Include="Assets\Scripts\Knight\KnightControlsGuns.cs" />
+    <Compile Include="Assets\Scripts\WorldManager\WorldManager.cs" />
+    <Compile Include="Assets\Scripts\Misc\Systems\ShipSystem.cs" />
+    <Compile Include="Assets\Scripts\Misc\Systems\RedExplosion.cs" />
+    <Compile Include="Assets\Scripts\Misc\Systems\GunBoost.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
