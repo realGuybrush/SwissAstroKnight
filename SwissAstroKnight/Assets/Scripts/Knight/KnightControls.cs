@@ -22,6 +22,16 @@ public partial class KnightControls : MonoBehaviour
     {
         FollowCursor();
         CheckControlInput();
+        if(AllNulls())
+            UpdateGuns();
+    }
+
+    bool AllNulls()
+    {
+        for(int i=0; i< guns.Count; i++)
+            if(guns[i] != null)
+                return false;
+        return true;
     }
 
     private void CheckControlInput()
@@ -58,8 +68,12 @@ public partial class KnightControls : MonoBehaviour
         {
             ship.velocity = new Vector2(0.0f, ship.velocity.y);
         }
-        if (Input.GetKeyDown(controls.dash)&&!dashing)
+        if (Input.GetKeyDown(controls.dash) && !dashing && canDash)
         {
+            //IEnumerator cor = dasher.ShootDash(ship.velocity);
+            //StartCoroutine(cor);
+            IEnumerator cor = dasher.Dashing(ship.velocity);
+            StartCoroutine(cor);
             StartCoroutine("Dash");
         }
         if (Input.GetKey(controls.atk1))

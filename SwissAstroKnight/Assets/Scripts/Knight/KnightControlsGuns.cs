@@ -7,13 +7,13 @@ public partial class KnightControls : MonoBehaviour
     public List<GameObject> weapons = new List<GameObject>();
     private List<Gun> guns = new List<Gun>();
 
-    private void UpdateGuns()
+    public void UpdateGuns()
     {
         guns = new List<Gun>();
         for (int i = 0; i < weapons.Count; i++)
-            if (weapons[i].transform.childCount > 0)
+            if (weapons[i].transform.childCount > 1)
             {
-                guns.Add(weapons[i].transform.GetChild(0).GetComponent<Gun>());
+                guns.Add(weapons[i].transform.GetChild(1).GetComponent<Gun>());
             }
             else
             {

@@ -36,9 +36,9 @@ public class WorldManager : MonoBehaviour
     void DebugSetSystems()
     {
         shipSystems = new List<int>();
-        shipSystems.Add(22);
-        shipSystems.Add(22);
-        shipSystems.Add(22);
+        shipSystems.Add(23);
+        shipSystems.Add(23);
+        shipSystems.Add(23);
     }
 
     public void LoadScene(string name)
@@ -74,6 +74,7 @@ public class WorldManager : MonoBehaviour
                 newG.GetComponent<Gun>().rotation = shipWeapons[i].Item2;
             }
         }
+        kss.GetComponent<KnightControls>()?.UpdateGuns();
         for (int i = 0; i < shipSystems.Count; i++)
         {
             if (shipSystems[i] != -1)
