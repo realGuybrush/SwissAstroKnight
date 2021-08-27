@@ -123,6 +123,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &28856510 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1295487016745804463, guid: 52a3548020d693e479ec1120ab4490b1, type: 3}
+  m_PrefabInstance: {fileID: 389722191}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 229b2b6e5746954459f71ab8e6ddd8f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &159880145
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -137,6 +148,10 @@ PrefabInstance:
     - target: {fileID: 4587535726799382184, guid: 862fce07d0f80d2479828a343dc83c16, type: 3}
       propertyPath: m_Name
       value: Dash2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587535726799382184, guid: 862fce07d0f80d2479828a343dc83c16, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4587535726799382184, guid: 862fce07d0f80d2479828a343dc83c16, type: 3}
       propertyPath: m_IsActive
@@ -192,6 +207,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 241912324}
     m_Modifications:
+    - target: {fileID: 236251108862309157, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876773075129637412, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876773076191980611, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4876773076749360513, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -240,6 +267,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GunBoost
       objectReference: {fileID: 0}
+    - target: {fileID: 4876773076749360514, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
 --- !u!4 &179485730 stripped
@@ -256,7 +287,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 182376313}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Gun3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -287,7 +318,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 241912324}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Gun4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -365,8 +396,24 @@ PrefabInstance:
       value: SwissSpark
       objectReference: {fileID: 0}
     - target: {fileID: 7435382322893650130, guid: 499d2801e64f17b4b925bef878d0cd2e, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435382322893650130, guid: 499d2801e64f17b4b925bef878d0cd2e, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435382323845708741, guid: 499d2801e64f17b4b925bef878d0cd2e, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435382324616413888, guid: 499d2801e64f17b4b925bef878d0cd2e, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435382324669018900, guid: 499d2801e64f17b4b925bef878d0cd2e, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 499d2801e64f17b4b925bef878d0cd2e, type: 3}
@@ -431,7 +478,15 @@ PrefabInstance:
       value: RedExplosion
       objectReference: {fileID: 0}
     - target: {fileID: 5505472457056979676, guid: 05d65b5ce17ca924a9d28a3c89cb3bde, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505472457056979676, guid: 05d65b5ce17ca924a9d28a3c89cb3bde, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505472457056979678, guid: 05d65b5ce17ca924a9d28a3c89cb3bde, type: 3}
+      propertyPath: m_WasSpriteAssigned
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -517,7 +572,7 @@ GameObject:
   m_Component:
   - component: {fileID: 496649625}
   - component: {fileID: 496649626}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: SwissSpaceShip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -548,7 +603,7 @@ Transform:
   - {fileID: 2114975684}
   - {fileID: 365188237}
   - {fileID: 796726482}
-  - {fileID: 1139979110}
+  - {fileID: 1498457445}
   - {fileID: 389722192}
   - {fileID: 246376078}
   - {fileID: 1272980473}
@@ -617,7 +672,7 @@ GameObject:
   m_Component:
   - component: {fileID: 498358413}
   - component: {fileID: 498358414}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: SwissSpaceShipKnight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -634,7 +689,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1139979110}
   m_Father: {fileID: 1096325089}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -870,6 +926,10 @@ PrefabInstance:
       value: Dash1
       objectReference: {fileID: 0}
     - target: {fileID: 4587535726799382184, guid: 862fce07d0f80d2479828a343dc83c16, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587535726799382184, guid: 862fce07d0f80d2479828a343dc83c16, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -925,7 +985,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 687765164}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Gun8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -957,7 +1017,7 @@ GameObject:
   m_Component:
   - component: {fileID: 796726482}
   - component: {fileID: 796726483}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GunBoostManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -998,6 +1058,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2023151708}
     m_Modifications:
+    - target: {fileID: 236251108862309157, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876773075129637412, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876773076191980611, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4876773076749360513, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1047,6 +1119,10 @@ PrefabInstance:
       value: GunBoost
       objectReference: {fileID: 0}
     - target: {fileID: 4876773076749360514, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876773076749360514, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -1068,7 +1144,8 @@ GameObject:
   - component: {fileID: 1096325089}
   - component: {fileID: 1096325090}
   - component: {fileID: 1096325091}
-  m_Layer: 0
+  - component: {fileID: 1096325092}
+  m_Layer: 9
   m_Name: KnightSpaceShip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1103,12 +1180,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660b5d6d631e38541b512f1627303e3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collisions:
+    serializedVersion: 2
+    m_Bits: 384
+  anim: {fileID: 0}
   velocity: 3
   systems:
   - {fileID: 1189321673}
   - {fileID: 1115448441}
   - {fileID: 2114975683}
-  dasher: {fileID: 1139979111}
+  dasherSignaller: {fileID: 1498457446}
   rotatingPart: {fileID: 496649624}
   weapons:
   - {fileID: 2023151707}
@@ -1119,6 +1200,9 @@ MonoBehaviour:
   - {fileID: 2128477905}
   - {fileID: 2114487468}
   - {fileID: 687765163}
+  healAmountPer1: 5
+  freq: 1
+  healer: {fileID: 28856510}
 --- !u!50 &1096325091
 Rigidbody2D:
   serializedVersion: 4
@@ -1127,19 +1211,35 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1096325088}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.0001
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_AngularDrag: 0
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!58 &1096325092
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096325088}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &1115448441
 GameObject:
   m_ObjectHideFlags: 0
@@ -1149,7 +1249,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1115448442}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: System2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1179,15 +1279,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1139979110}
-  - component: {fileID: 1139979111}
   - component: {fileID: 1139979112}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Dasher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1139979110
 Transform:
   m_ObjectHideFlags: 0
@@ -1195,30 +1294,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1139979109}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1682913066}
   - {fileID: 644680654}
   - {fileID: 159880146}
-  m_Father: {fileID: 496649625}
-  m_RootOrder: 13
+  m_Father: {fileID: 498358413}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1139979111
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1139979109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89c6247a228ed66488719dc23b7ec986, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dashPrefab: {fileID: 4587535726799382184, guid: 862fce07d0f80d2479828a343dc83c16, type: 3}
-  a: {fileID: 1139979112}
 --- !u!95 &1139979112
 Animator:
   serializedVersion: 3
@@ -1245,6 +1330,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2128477906}
     m_Modifications:
+    - target: {fileID: 236251108862309157, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876773075129637412, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876773076191980611, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4876773076749360513, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1293,6 +1390,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GunBoost
       objectReference: {fileID: 0}
+    - target: {fileID: 4876773076749360514, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
 --- !u!4 &1176789836 stripped
@@ -1309,7 +1410,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1189321674}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: System1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1337,6 +1438,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1445616386}
     m_Modifications:
+    - target: {fileID: 236251108862309157, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876773075129637412, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876773076191980611, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4876773076749360513, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1384,6 +1497,10 @@ PrefabInstance:
     - target: {fileID: 4876773076749360514, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
       propertyPath: m_Name
       value: GunBoost
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876773076749360514, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
@@ -1399,6 +1516,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 687765164}
     m_Modifications:
+    - target: {fileID: 236251108862309157, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876773075129637412, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876773076191980611, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4876773076749360513, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1446,6 +1575,10 @@ PrefabInstance:
     - target: {fileID: 4876773076749360514, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
       propertyPath: m_Name
       value: GunBoost
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876773076749360514, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
@@ -1463,7 +1596,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1230355328}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Gun2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1492,6 +1625,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 182376313}
     m_Modifications:
+    - target: {fileID: 236251108862309157, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876773075129637412, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876773076191980611, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4876773076749360513, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1540,6 +1685,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GunBoost
       objectReference: {fileID: 0}
+    - target: {fileID: 4876773076749360514, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
 --- !u!4 &1249672107 stripped
@@ -1554,9 +1703,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 496649625}
     m_Modifications:
+    - target: {fileID: 4380539292516674775, guid: e053abf4636519a42916fe008f516afa, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4380539293047390134, guid: e053abf4636519a42916fe008f516afa, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4380539293287899067, guid: e053abf4636519a42916fe008f516afa, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4380539293950195076, guid: e053abf4636519a42916fe008f516afa, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4380539293961749093, guid: e053abf4636519a42916fe008f516afa, type: 3}
       propertyPath: m_Name
       value: SwissShield
+      objectReference: {fileID: 0}
+    - target: {fileID: 4380539293961749093, guid: e053abf4636519a42916fe008f516afa, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4380539293961749093, guid: e053abf4636519a42916fe008f516afa, type: 3}
       propertyPath: m_IsActive
@@ -1606,6 +1775,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4380539294074851900, guid: e053abf4636519a42916fe008f516afa, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4380539294162743145, guid: e053abf4636519a42916fe008f516afa, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e053abf4636519a42916fe008f516afa, type: 3}
 --- !u!4 &1272980473 stripped
@@ -1622,7 +1799,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1445616386}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Gun5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1644,6 +1821,193 @@ Transform:
   m_Father: {fileID: 496649625}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180}
+--- !u!1 &1498457444
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1498457445}
+  - component: {fileID: 1498457446}
+  m_Layer: 9
+  m_Name: DasherSignaller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1498457445
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498457444}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 496649625}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1498457446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498457444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89c6247a228ed66488719dc23b7ec986, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actualDasher: {fileID: 1139979110}
+  a: {fileID: 1139979112}
+--- !u!1 &1566420199
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1566420202}
+  - component: {fileID: 1566420201}
+  - component: {fileID: 1566420200}
+  - component: {fileID: 1566420204}
+  - component: {fileID: 1566420203}
+  m_Layer: 7
+  m_Name: SpaceShipFlamethrower
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!58 &1566420200
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566420199}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.055
+--- !u!212 &1566420201
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566420199}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -7671315367032205035, guid: 9b8bf70e97c1f8a4684270236f476a9d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.11, y: 0.11}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1566420202
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566420199}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.8376812, y: -0.053148896, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1566420203
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566420199}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &1566420204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566420199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a865f6a590977c947940dd3ea98176a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisions:
+    serializedVersion: 2
+    m_Bits: 512
+  projectile: {fileID: 1566420203}
+  lifetime: 500
+  velocity: 0
+  damage: 10
+  anim: {fileID: 0}
 --- !u!1001 &1682913065
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1658,6 +2022,10 @@ PrefabInstance:
     - target: {fileID: 4587535726799382184, guid: 862fce07d0f80d2479828a343dc83c16, type: 3}
       propertyPath: m_Name
       value: Dash
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587535726799382184, guid: 862fce07d0f80d2479828a343dc83c16, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4587535726799382184, guid: 862fce07d0f80d2479828a343dc83c16, type: 3}
       propertyPath: m_IsActive
@@ -1731,7 +2099,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1773562919}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Singularity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1882,6 +2250,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1230355328}
     m_Modifications:
+    - target: {fileID: 236251108862309157, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876773075129637412, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876773076191980611, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4876773076749360513, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1929,6 +2309,10 @@ PrefabInstance:
     - target: {fileID: 4876773076749360514, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
       propertyPath: m_Name
       value: GunBoost
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876773076749360514, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
@@ -1976,7 +2360,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2023151708}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Gun1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2005,6 +2389,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2114487469}
     m_Modifications:
+    - target: {fileID: 236251108862309157, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876773075129637412, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876773076191980611, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4876773076749360513, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2053,6 +2449,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GunBoost
       objectReference: {fileID: 0}
+    - target: {fileID: 4876773076749360514, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3174446c0c697b64ca4f0d4e16115093, type: 3}
 --- !u!4 &2094608986 stripped
@@ -2069,7 +2469,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2114487469}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Gun7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2100,7 +2500,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2114975684}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: System3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2130,7 +2530,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2128477906}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Gun6
   m_TagString: Untagged
   m_Icon: {fileID: 0}

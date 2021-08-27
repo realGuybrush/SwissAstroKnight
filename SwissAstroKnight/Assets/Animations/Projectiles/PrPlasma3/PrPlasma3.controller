@@ -67,7 +67,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Explode
+    m_ConditionEvent: End
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 8855933128149048519}
@@ -118,7 +118,7 @@ AnimatorController:
   m_Name: PrPlasma3
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: Explode
+  - m_Name: End
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0

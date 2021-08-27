@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public partial class KnightControls : MonoBehaviour
+public partial class KnightControls : LivingBeingBase
 {
     public List<GameObject> weapons = new List<GameObject>();
     private List<Gun> guns = new List<Gun>();

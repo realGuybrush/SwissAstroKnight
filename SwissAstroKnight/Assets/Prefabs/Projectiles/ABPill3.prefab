@@ -144,10 +144,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd62dd8b6b717d444b935ffc8985e4ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collisions:
+    serializedVersion: 2
+    m_Bits: 256
   projectile: {fileID: 7470223044795051405}
   lifetime: 10
   velocity: 3
   damage: 10
+  anim: {fileID: 0}
   particles:
   - {fileID: 7072735268357809153, guid: 0e3bf0b054e656d49bf18d9e9a9256bf, type: 3}
   - {fileID: 8851973222891945288, guid: 05da7d46c11ce6b49beaa4c2bd676fdd, type: 3}

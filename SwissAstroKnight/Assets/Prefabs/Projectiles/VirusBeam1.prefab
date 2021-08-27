@@ -123,10 +123,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a865f6a590977c947940dd3ea98176a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collisions:
+    serializedVersion: 2
+    m_Bits: 256
   projectile: {fileID: 5873499036947252166}
   lifetime: 3
   velocity: 10
   damage: 10
+  anim: {fileID: 0}
 --- !u!50 &5873499036947252166
 Rigidbody2D:
   serializedVersion: 4

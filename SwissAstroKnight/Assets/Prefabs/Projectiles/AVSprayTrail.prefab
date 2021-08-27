@@ -98,10 +98,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a865f6a590977c947940dd3ea98176a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collisions:
+    serializedVersion: 2
+    m_Bits: 256
   projectile: {fileID: 2306994391790900882}
   lifetime: 1.5
   velocity: 0
   damage: 10
+  anim: {fileID: 0}
 --- !u!58 &7609594380439794013
 CircleCollider2D:
   m_ObjectHideFlags: 0

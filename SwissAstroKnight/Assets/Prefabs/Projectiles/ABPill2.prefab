@@ -144,10 +144,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd62dd8b6b717d444b935ffc8985e4ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collisions:
+    serializedVersion: 2
+    m_Bits: 256
   projectile: {fileID: 2464375123671643594}
   lifetime: 10
   velocity: 3
   damage: 10
+  anim: {fileID: 0}
   particles:
   - {fileID: 7072735268357809153, guid: 0e3bf0b054e656d49bf18d9e9a9256bf, type: 3}
   timeGapsBetweenSpews:

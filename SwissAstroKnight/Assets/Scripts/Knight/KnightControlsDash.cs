@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public partial class KnightControls : MonoBehaviour
+public partial class KnightControls : LivingBeingBase
 {
     bool canDash = false;
     bool dashing = false;
     float baseDash = 2.5f;
     int dashLevel = 0;
-    public Dash dasher;
+    public Dash dasherSignaller;
 
     public void SetDash(int level)
     {

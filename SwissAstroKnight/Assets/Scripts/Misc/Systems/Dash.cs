@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Dash : ShipSystem
 {
-    public GameObject dashPrefab;
+    public Transform actualDasher;
     float transpA = 50.0f;
     public Animator a;
 
@@ -30,22 +30,10 @@ public class Dash : ShipSystem
         float velVector = Mathf.Sqrt(velocity.x * velocity.x + velocity.y * velocity.y);
         if (velVector != 0)
         {
-            transform.eulerAngles = new Vector3(0f, 0f, -90f + Mathf.Acos(velocity.x / velVector) * Mathf.Rad2Deg * (velocity.y > 0 ? 1f : -1f));
+            actualDasher.eulerAngles = new Vector3(0f, 0f, -90f + Mathf.Acos(velocity.x / velVector) * Mathf.Rad2Deg * (velocity.y > 0 ? 1f : -1f));
             a.SetBool("Dash", true);
             yield return new WaitForSeconds(0.2f);
             a.SetBool("Dash", false);
         }
-    }
-
-    public IEnumerator ShootDash(Vector3 velocity)
-    {
-        Color transp = new Color(1f, 1f, 1f, transpA);
-        GameObject d = GameObject.Instantiate(dashPrefab, this.transform);
-        d.GetComponent<Rigidbody2D>().velocity = -10f * velocity;
-        float velVector = Mathf.Sqrt(velocity.x * velocity.x + velocity.y * velocity.y);
-        d.transform.eulerAngles = new Vector3(0f, 0f, 90f+Mathf.Acos(velocity.x/velVector)*Mathf.Rad2Deg*(velocity.y>0?1f:-1f));
-        d.GetComponent<SpriteRenderer>().color = transp;
-        yield return new WaitForSeconds(0.1f);
-        GameObject.Destroy(d);
     }
 }

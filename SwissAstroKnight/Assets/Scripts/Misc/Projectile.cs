@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
+    public LayerMask collisions; 
     public Rigidbody2D projectile;
     public float lifetime = 5f;
     public float velocity = 10f;
     public int damage = 10;
+    public Animator anim;
     void Start()
     {
-        projectile.velocity = velocity * transform.up;//new Vector2(Mathf.Cos(transform.eulerAngles.z), Mathf.Sin(transform.eulerAngles.z));
+        projectile.velocity = velocity * transform.up;
         StartCoroutine("Live");
     }
 
@@ -22,11 +24,13 @@ public class Projectile : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        BasicEnemyMovement enemy = collision.gameObject.GetComponent<BasicEnemyMovement>();
-        if (enemy != null)
+        if (collisions == (collisions | (1 << collision.gameObject.layer)))
         {
-           Destroy(enemy.gameObject);
-            //enemy.GetDamage(damage);
+            collision.gameObject.GetComponent<LivingBeingBase>()?.GetDamage(damage);
+            if (anim == null)
+                Destroy(this.gameObject);
+            else
+                anim.SetBool("End", true);
         }
     }
 }

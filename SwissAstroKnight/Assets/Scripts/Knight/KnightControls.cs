@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public partial class KnightControls : MonoBehaviour
+public partial class KnightControls : LivingBeingBase
 {
     private Camera mainCam;
     private ControlKeys controls = new ControlKeys();
@@ -24,6 +24,7 @@ public partial class KnightControls : MonoBehaviour
         CheckControlInput();
         if(AllNulls())
             UpdateGuns();
+        StartCoroutine("CheckHealth");
     }
 
     bool AllNulls()
@@ -72,7 +73,7 @@ public partial class KnightControls : MonoBehaviour
         {
             //IEnumerator cor = dasher.ShootDash(ship.velocity);
             //StartCoroutine(cor);
-            IEnumerator cor = dasher.Dashing(ship.velocity);
+            IEnumerator cor = dasherSignaller.Dashing(ship.velocity);
             StartCoroutine(cor);
             StartCoroutine("Dash");
         }
