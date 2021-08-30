@@ -12,8 +12,10 @@ public class Projectile : MonoBehaviour
     public Animator anim;
     void Start()
     {
-        projectile.velocity = velocity * transform.up;
-        StartCoroutine("Live");
+        if (projectile != null)
+            projectile.velocity = velocity * transform.up;
+        if(lifetime >= 0)
+            StartCoroutine("Live");
     }
 
     public IEnumerator Live()

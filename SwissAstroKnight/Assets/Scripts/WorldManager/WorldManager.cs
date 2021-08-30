@@ -36,9 +36,9 @@ public class WorldManager : MonoBehaviour
     void DebugSetSystems()
     {
         shipSystems = new List<int>();
-        shipSystems.Add(24);
-        shipSystems.Add(24);
-        shipSystems.Add(24);
+        shipSystems.Add(25);
+        shipSystems.Add(25);
+        shipSystems.Add(25);
     }
 
     public void LoadScene(string name)
