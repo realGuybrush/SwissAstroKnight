@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\Knight\KnightControlsGuns.cs" />
     <Compile Include="Assets\Scripts\Misc\GlobalFuncs.cs" />
     <Compile Include="Assets\Scripts\Misc\ProjectileDOT.cs" />
+    <Compile Include="Assets\Scripts\Misc\Systems\Shield.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

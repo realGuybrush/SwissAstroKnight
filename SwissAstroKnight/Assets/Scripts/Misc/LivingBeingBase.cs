@@ -6,7 +6,8 @@ public class LivingBeingBase : MonoBehaviour
 {
     public LayerMask collisions;
     public Animator anim;
-    protected Characteristics health = new Characteristics();
+    public Characteristics health = new Characteristics();
+    public bool shielded = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +26,7 @@ public class LivingBeingBase : MonoBehaviour
 
     public void GetDamage(int damage)
     {
-        if (health.health == -1)
+        if ((health.health == -1)||shielded)
             return;
         health.health -= damage * (int)( 100f / (100f + (float)health.armor));
         if (health.health <= 0)
@@ -46,5 +47,20 @@ public class LivingBeingBase : MonoBehaviour
         health.health += heal;
         if (health.health > health.maxHealth)
             health.health = health.maxHealth;
+    }
+
+    public void Heal()
+    {
+        health.health = health.maxHealth;
+    }
+
+    public void EnableShield()
+    {
+        shielded = true;
+    }
+
+    public void DisableShield()
+    {
+        shielded = false;
     }
 }
