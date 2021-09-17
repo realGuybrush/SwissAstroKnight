@@ -62,25 +62,29 @@
     <Compile Include="Assets\Scripts\Misc\Systems\Sparker.cs" />
     <Compile Include="Assets\Scripts\Misc\Systems\RedExplosion.cs" />
     <Compile Include="Assets\Scripts\Misc\ParticleParams.cs" />
+    <Compile Include="Assets\Scripts\Misc\Systems\Singularity.cs" />
     <Compile Include="Assets\Scripts\Knight\KnightControls.cs" />
     <Compile Include="Assets\Scripts\Misc\Systems\ShipSystem.cs" />
     <Compile Include="Assets\Scripts\Misc\Gun.cs" />
     <Compile Include="Assets\Scripts\Misc\Systems\GunBoost.cs" />
     <Compile Include="Assets\Scripts\Misc\Systems\Dash.cs" />
+    <Compile Include="Assets\Scripts\Misc\Systems\Shield.cs" />
     <Compile Include="Assets\Scripts\Enemies\BasicEnemyMovement.cs" />
     <Compile Include="Assets\Scripts\Misc\Projectile.cs" />
     <Compile Include="Assets\Scripts\WorldManager\WorldManager.cs" />
     <Compile Include="Assets\Scripts\Knight\KnightControlsHealthCare.cs" />
     <Compile Include="Assets\Scripts\Knight\KnightControlsFollowCursor.cs" />
+    <Compile Include="Assets\Scripts\Misc\Systems\SingularitySystem.cs" />
+    <Compile Include="Assets\Scripts\Misc\GlobalFuncs.cs" />
     <Compile Include="Assets\Scripts\Knight\ControlKeys.cs" />
     <Compile Include="Assets\Scripts\Misc\LivingBeingBase.cs" />
     <Compile Include="Assets\Scripts\Misc\ProjectileWithParticles.cs" />
     <Compile Include="Assets\Scripts\Misc\Systems\Spark.cs" />
     <Compile Include="Assets\Scripts\Misc\Characteristics.cs" />
     <Compile Include="Assets\Scripts\Knight\KnightControlsGuns.cs" />
-    <Compile Include="Assets\Scripts\Misc\GlobalFuncs.cs" />
     <Compile Include="Assets\Scripts\Misc\ProjectileDOT.cs" />
-    <Compile Include="Assets\Scripts\Misc\Systems\Shield.cs" />
+    <Compile Include="Assets\Scripts\Knight\KnightControlsSingularity.cs" />
+    <Compile Include="Assets\Scripts\Misc\Systems\Puller.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

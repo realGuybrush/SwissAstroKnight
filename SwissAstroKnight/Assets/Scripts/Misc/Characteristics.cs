@@ -8,6 +8,8 @@ public class Characteristics
     public int health;
     public int maxArmor = 0;
     public int armor;
+    public int hpRegenPts = 5;
+    public int hpRegenPrcnts = 0;
 
     public Characteristics()
     {

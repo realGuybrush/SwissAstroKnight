@@ -22,9 +22,12 @@ public class LivingBeingBase : MonoBehaviour
 
     protected virtual void Starting() { }
 
-    protected virtual void Updating() { }
+    protected virtual void Updating() 
+    {
+        HPRegen();
+    }
 
-    public void GetDamage(int damage)
+    public virtual void GetDamage(int damage)
     {
         if ((health.health == -1)||shielded)
             return;
@@ -39,6 +42,15 @@ public class LivingBeingBase : MonoBehaviour
             {
                 Destroy(this.gameObject);
             }
+        }
+    }
+
+    public void HPRegen()
+    {
+        if (health.health < health.maxHealth)
+        {
+            health.health += health.hpRegenPts;
+            health.health += health.maxHealth * health.hpRegenPrcnts / 100;
         }
     }
 

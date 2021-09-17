@@ -11,6 +11,8 @@ public class Shield : ShipSystem
     public Animator anim;
     public float recoveryTime = 10f;
     bool recovering = false;
+    private int ticksTostartRecoveryMax = 100;
+    private int ticksTostartRecovery = 100;
     // Start is called before the first frame update
     void Start()
     {

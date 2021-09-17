@@ -27,6 +27,11 @@ public partial class KnightControls : LivingBeingBase
         StartCoroutine("CheckHealth");
     }
 
+    private void FixedUpdate()
+    {
+        UpdateSingularity();
+    }
+
     bool AllNulls()
     {
         for(int i=0; i< guns.Count; i++)
@@ -80,6 +85,10 @@ public partial class KnightControls : LivingBeingBase
         if (Input.GetKey(controls.atk1))
         {
             Shoot();
+        }
+        if (Input.GetKey(controls.atk2))
+        {
+            ShootSingularity();
         }
     }
 }
